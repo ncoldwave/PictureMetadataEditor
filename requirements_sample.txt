@@ -1,0 +1,16 @@
+# Design & Media Repository - Requirements
+# Dependencies for logo metadata writer scripts and design tools
+
+gimp
+inkscape
+
+# Python dependencies (if needed for metadata processing)
+pillow  # Image processing (if extracting logo metadata)
+exifread  # Reading EXIF data from images
+
+# Metadata processing
+Metadata++  # Tool for managing image metadata
+
+# PowerShell runtime (running metadata writer scripts)
+powershell
+

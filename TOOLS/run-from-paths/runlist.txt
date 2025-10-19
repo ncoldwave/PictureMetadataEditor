@@ -1,0 +1,35 @@
+# Copying metadata updaters
+/mnt/c/Repositories/Design-Media/TOOLS/multi-copy/multi-copy.sh
+
+# Run all metadata updaters
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/DentAA/3D/mass-metadata-writer-DentAA-3D.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Hunor-Stellarus/3D/mass-metadata-writer-Hunor-Stellarus-3D.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/LexinAE/3D/mass-metadata-writer-LexinAE-3D.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/MiniQD/3D/mass-metadata-writer-MiniQD-3D.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/TeraRA/3D/mass-metadata-writer-TeraRA-3D.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/VindeXX/3D/mass-metadata-writer-VindeXX-3D.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/RED/3D/mass-metadata-writer-ViviQD-3D.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviQD/3D/mass-metadata-writer-ViviQD-3D.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Hunor-Stellarus/Logo/mass-metadata-writer-Hunor-Stellarus-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/LexinAE/Logo/mass-metadata-writer-LexinAE-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/MiniQD/Logo/mass-metadata-writer-MiniQD-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Nexora-Atlas/Logo/mass-metadata-writer-Nexora-Atlas-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Nexora-Cognitor/Logo/mass-metadata-writer-Nexora-Cognitor-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Nexora-Librarius/Logo/mass-metadata-writer-Nexora-Librarius-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Nexora-Syntaris/Logo/mass-metadata-writer-Nexora-Syntaris-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Starvale-Care-Continuum/Color_Check/mass-metadata-writer-Starvale-Care-Continuum-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Starvale-Care-Continuum/Different_Ideas/mass-metadata-writer-Starvale-Care-Continuum-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Starvale-Care-Continuum/Logo/mass-metadata-writer-Starvale-Care-Continuum-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/TeraRA/Logo/mass-metadata-writer-TeraRA-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Test-Ament/Logo/mass-metadata-writer-Test-Ament-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/UniVital.Net/My-Logo/mass-metadata-writer-UniVital.Net-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Valdár-Astralis/Logo/mass-metadata-writer-Valdár-Astralis-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite-EMS/Logo/mass-metadata-writer-ViviComm-Lite-EMS-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite-Hospital/Logo/mass-metadata-writer-ViviComm-Lite-Hospital-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite/Head-Logo/mass-metadata-writer-ViviComm-Lite-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite/Logo/mass-metadata-writer-ViviComm-Lite-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite-Medical/Logo/mass-metadata-writer-ViviComm-Lite-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm/Logo/mass-metadata-writer-ViviComm-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/RED/Logo/mass-metadata-writer-ViviQD-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviQD/Head-Logo/mass-metadata-writer-ViviQD-Logo.sh
+

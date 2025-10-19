@@ -1,0 +1,125 @@
+# ========================
+# 🔧 Általános szöveges fájlok
+# ========================
+*.txt       text eol=lf
+*.md        text eol=lf
+*.rst       text eol=lf
+*.csv       text eol=lf
+*.tsv       text eol=lf
+*.json      text eol=lf
+*.yaml      text eol=lf
+*.yml       text eol=lf
+*.xml       text eol=lf
+*.toml      text eol=lf
+*.ini       text eol=lf
+*.conf      text eol=lf
+*.env       text eol=lf
+
+# ========================
+# 💻 Forráskód fájlok
+# ========================
+*.c         text eol=lf
+*.cpp       text eol=lf
+*.h         text eol=lf
+*.hpp       text eol=lf
+*.cs        text eol=lf
+*.java      text eol=lf
+*.py        text eol=lf
+*.rb        text eol=lf
+*.go        text eol=lf
+*.rs        text eol=lf
+*.php       text eol=lf
+*.js        text eol=lf
+*.ts        text eol=lf
+*.jsx       text eol=lf
+*.tsx       text eol=lf
+*.swift     text eol=lf
+*.kt        text eol=lf
+*.dart      text eol=lf
+
+# ========================
+# 🐚 Shell és szkriptek
+# ========================
+*.sh        text eol=lf
+*.bash      text eol=lf
+*.zsh       text eol=lf
+*.fish      text eol=lf
+*.ps1       text eol=crlf
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
+
+# ========================
+# 🌐 Webes fájlok
+# ========================
+*.html      text eol=lf
+*.htm       text eol=lf
+*.css       text eol=lf
+*.scss      text eol=lf
+*.sass      text eol=lf
+*.less      text eol=lf
+
+# ========================
+# ⚙️ Konfigurációs és build fájlok
+# ========================
+*.make      text eol=lf
+Makefile    text eol=lf
+Dockerfile  text eol=lf
+*.gradle    text eol=lf
+*.mjs       text eol=lf
+*.cjs       text eol=lf
+*.lock      text eol=lf
+
+# ========================
+# 🧪 Teszt és CI fájlok
+# ========================
+*.test.*    text eol=lf
+*.spec.*    text eol=lf
+*.snap      text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+
+# ========================
+# 📦 Csomagkezelő fájlok
+# ========================
+package.json    text eol=lf
+package-lock.json text eol=lf
+Pipfile         text eol=lf
+Pipfile.lock    text eol=lf
+requirements.txt text eol=lf
+composer.json   text eol=lf
+composer.lock   text eol=lf
+
+# ========================
+# 🖼️ Bináris fájlok (ne konvertálja Git)
+# ========================
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.pdf       binary
+*.zip       binary
+*.tar       binary
+*.gz        binary
+*.7z        binary
+*.exe       binary
+*.dll       binary
+*.so        binary
+*.dylib     binary
+*.woff      binary
+*.woff2     binary
+*.ttf       binary
+*.eot       binary
+*.mp3       binary
+*.mp4       binary
+*.mov       binary
+*.avi       binary
+
+# ========================
+# 🧠 Git saját viselkedés
+# ========================
+# Normalize all text files to LF on check-in
+* text=auto
+
+# Ignore diff for lock files (optional)
+*.lock      -diff

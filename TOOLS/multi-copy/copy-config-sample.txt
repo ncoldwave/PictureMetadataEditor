@@ -1,0 +1,2 @@
+/mnt/c/Users/ncoldwave/Documents/file1.txt /mnt/c/Users/ncoldwave/Desktop/backup1 /mnt/d/Archives
+/mnt/c/Users/ncoldwave/Pictures/image.png /mnt/c/Users/ncoldwave/Desktop/images

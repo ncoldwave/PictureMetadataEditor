@@ -1,0 +1,96 @@
+# multi-copy.sh Configuration File
+#
+# Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-07-06 08:04:02
+# Current User's Login: ncoldwave
+#
+#  Copyright (c) Róbert Kovács. All rights reserved.
+#  Proprietary and confidential.
+#
+#  This script is licensed for use exclusively by UniVital.Net until revoked.
+#  Unauthorized use, copying, modification, or distribution is strictly prohibited.
+#  License remains valid until explicitly revoked by the copyright holder.
+#
+#  Contact:        legal@univital.net, robbi.mobile@gmail.com
+#  Repository:     https://github.com/ncoldwave/Design-Media
+#
+# Version: 2025.0.0.2
+# License: Proprietary
+# Author: Róbert Kovács (ncoldwave)
+# Created: 2025-07-06 06:46:00 UTC
+# Team: [if any]
+#
+# Description:
+#   This configuration file defines source-to-destination mappings
+#   for automated file propagation during pre-commit or deployment.
+#     - Lines starting with '#' are treated as comments.
+#     - Empty lines are ignored.
+#     - Relative paths are interpreted from the repository root.
+#
+# Format:
+#   <source-file-path> <destination-folder-1> <destination-folder-2> ...
+#
+# Example:
+#   templates/fileheaders/full/YourClass.java src/main/java/com/example/
+#
+# Security Notice: This script contains proprietary automation procedures.
+#                  Do not share or modify without explicit authorization.
+#
+# Legal Notice:    For legal compliance and audit purposes, all executions
+#                  of this script are logged and monitored.
+
+# SURVEY
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-DentAA-3D.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/DentAA/3D
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-Hunor-Stellarus-3D.sh  /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Hunor-Stellarus/3D
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-LexinAE-3D.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/LexinAE/3D
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-MiniQD-3D.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/MiniQD/3D
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-TeraRA-3D.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/TeraRA/3D
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-VindeXX-3D.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/VindeXX/3D
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-ViviQD-3D.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/RED/3D /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviQD/3D
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Hunor-Stellarus-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Hunor-Stellarus/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-LexinAE-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/LexinAE/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-MiniQD-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/MiniQD/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Nexora-Atlas-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Nexora-Atlas/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Nexora-Cognitor-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Nexora-Cognitor/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Nexora-Librarius-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Nexora-Librarius/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Nexora-Syntaris-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Nexora-Syntaris/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Starvale-Care-Continuum-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Starvale-Care-Continuum/Color_Check /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Starvale-Care-Continuum/Different_Ideas /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Starvale-Care-Continuum/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-TeraRA-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/TeraRA/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Test-Ament-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Test-Ament/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-UniVital.Net-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/UniVital.Net/My-Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Valdar-Astralis-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Valdár-Astralis/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviComm-Lite-EMS-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite-EMS/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviComm-Lite-Hospital-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite-Hospital/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviComm-Lite-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite/Head-Logo /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviComm-Lite-Medical-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite-Medical/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviComm-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm/Logo
+/mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviQD-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/RED/Logo /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviQD/Head-Logo
+
+# ORIGINAL FILES
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-DentAA-3D.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/DentAA/3D/output
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-Hunor-Stellarus-3D.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Hunor-Stellarus/output
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-LexinAE-3D.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/LexinAE/output
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-MiniQD-3D.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/MiniQD/All/output/selected/3D
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-TeraRA-3D.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-Valdár-Astralis-3D.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-VindeXX-3D.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/3D-character-metadata-writers/mass-metadata-writer-ViviQD-3D.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/RED/3D
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-DentAA-Logo.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Hunor-Stellarus-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Hunor-Stellarus/Logo/output
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-LexinAE-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/LexinAE/All-Logo/output/selected
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-MiniQD-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/MiniQD/All/output/selected/Logo
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Nexora-Atlas-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Nexora-Atlas/output/selected
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Nexora-Cognitor-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Nexora-Cognitor/output
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Nexora-Librarius-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Nexora-Librarius/output/selected
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Nexora-Syntaris-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Nexora-Syntaris/output
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Starvale-Care-Continuum-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Starvale-Care-Continuum/All/output /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Starvale-Care-Continuum/Color_Check /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Starvale-Care-Continuum/Different_Ideas /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Starvale-Care-Continuum/input/output /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Starvale-Care-Continuum/Logo /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/Starvale-Care-Continuum/transparent-stars/output
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-TeraRA-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/TeraRA/logo/output 
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Test-Ament-Logo.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-UniVital.Net-Logo.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-Valdár-Astralis-Logo.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-VindeXX-Logo.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviComm-Lite-EMS-Logo.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviComm-Lite-Hospital-Logo.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviComm-Lite-Logo.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviComm-Lite-Medical-Logo.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviComm-Logo.sh
+# /mnt/c/Repositories/Design-Media/TOOLS/Metadata-Writers/Logo-Metadata-Writers/mass-metadata-writer-ViviQD-Logo.sh /mnt/c/Repositories/Visual/Image/Characters/Characters-Logos/RED/Logo

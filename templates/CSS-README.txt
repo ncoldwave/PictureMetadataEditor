@@ -1,0 +1,1 @@
+Copy markdown-pdf.css to your .vscode directory.

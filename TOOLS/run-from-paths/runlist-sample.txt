@@ -1,0 +1,4 @@
+# Ez egy komment – figyelmen kívül hagyva
+/mnt/c/Users/ncoldwave/Scripts/hello.sh
+/mnt/c/Program Files/SomeApp/runner.exe
+/mnt/d/Tools/cleanup.sh

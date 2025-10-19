@@ -1,0 +1,578 @@
+/* ViviComm™ Official Compliance Document CSS Template */
+
+/*reset css - begin */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased; 
+}
+
+/* 6. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+/*reset css end */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+/*@font-face {
+    font-family: 'Noto Color Emoji';
+    src: url('https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf') format('truetype');
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji+Glyf');
+ */
+/* @font-face {
+    font-family: 'Noto Color Emoji';
+    src: url('https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf') format('truetype');
+}*/
+
+@font-face {
+  font-family: 'Noto Color Emoji';
+  src: url('C:/Users/Ncoldwave/Documents/szakdolgozat/ViviComm-Commercial/QuantumAI-n-Audits/.vscode/fonts/NotoColorEmoji.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* @font-face {
+  font-family: 'Oxanium';
+  src: url('C:/Users/Ncoldwave/Documents/szakdolgozat/ViviComm-Commercial/QuantumAI-n-Audits/.vscode/fonts/Oxanium-VariableFont_wght.ttf') format('truetype');
+  font-weight: auto;
+  font-style: normal;  
+} */
+
+/* @font-face {
+  font-family: 'Roboto';
+  src: url('C:/Users/Ncoldwave/Documents/szakdolgozat/ViviComm-Commercial/QuantumAI-n-Audits/.vscode/fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+
+:root {
+  --primary-color: #0053a6; /* Professzionális orvosi kék */
+  --accent-color: #007ACC;  /* Jobban olvasható, élénkebb kék */
+  --hover-color: #005a9e;   /* Sötétebb, kontrasztosabb hover szín */
+  --text-color: #333333;    /* Olvasható sötét szürke */
+  --bg-color: #ffffff;      /* Tiszta, fehér háttér */
+  --border-color: #dce1e7;  /* Enyhe elválasztók színe */
+  /*--code-bg-color: #f3f7fa;*/ /* Audit folderek háttérszíne */
+
+  --logo-dark-color: #2cbcff;
+  --logo-middle-color: #47d4ff;
+  --logo-light-color: #56deff;
+  
+  --note-bg-color: #e7f3fe;
+  --note-border-color: #8cc2ff;
+
+  --warning-bg-color: #f0e9e9;
+  --warning-border-color: #f33535; 
+
+  --example-bg-color: #e6f4ea;
+  --example-border-color: #a5d6a7;
+
+  --tip-bg-color: #fff8e6;
+  --tip-border-color: #ffe082;
+
+  --header-info-bg-color: #f4f8ff;
+  --header-info-border-color: #a6c8ff;
+}
+
+html, body, p, li, td, th, code, blockquote, .document-end {
+  font-size: 11pt; /*!important;*/
+}
+
+html, body {
+  /*font-family: 'Roboto', 'Segoe UI', Ubuntu, 'Noto Color Emoji', sans-serif;*/
+  /* font-family: 'Roboto', 'Segoe UI', 'Noto Sans', 'Helvetica Neue', Arial, sans-serif; */
+  /* font-family: 'Noto Sans', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; */
+  /*font-family: 'Noto Color Emoji', sans-serif;*/
+  /*font-family: system-ui, -apple-system, "Segoe UI Emoji", "Noto Color Emoji", sans-serif;*/
+  /*font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;*/
+  font-family: 'Noto Sans', 'Roboto', 'Segoe UI', Ubuntu, 'Noto Color Emoji', sans-serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.6;
+  /* padding: 15px 0; */ /* Logo Space */
+  margin: 0;  
+}
+
+body {
+   position: relative; /* kötelező az abszolút pozicionáláshoz */
+   margin-top: 0px; /* ez húzza fel a tartalmat még jobban */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin: 24px 0 12px 0;
+  /* padding-top: 10px; */
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent-color);
+  /*font-stretch: ultra-condensed;
+  font-optical-sizing: auto;*/
+}
+
+h1 {
+  font-family: 'Oxanium', 'Roboto', 'Segoe UI', Ubuntu, sans-serif;
+  color: var(--primary-color);
+  font-weight: 700;
+  margin: 48px 0 6px 0;
+  padding-bottom: 0px;
+  border-bottom: 2px solid var(--accent-color);
+  font-stretch: ultra-condensed;
+  font-optical-sizing: auto;
+
+  /* Gradient text */
+  color: var(--primary-color); /* Alapértelmezett szín */
+  background: linear-gradient(to right, var(--primary-color), var(--logo-dark-color));
+  display: inline-block; /*inline-block esetén nem fut végig a border */
+  /*text-align: center;*/
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  border-bottom: 2px solid;
+  border-image-source: linear-gradient(to right, var(--primary-color), var(--logo-dark-color));
+  border-image-slice: 1; /* Biztosítja, hogy a gradient teljesen kitöltse */
+
+  /* csíkeltüntetés */
+  padding: 5px 5px 0px 5px; /* Minden oldalon biztosít némi helyet */
+  clip-path: inset(5px 5px 0px 5px); /* Levágás minden oldalról */
+
+  /* sortörés logo előtt*/
+  max-width: 92%; /* Beállítja, hogy ne legyen túl széles */
+  word-wrap: break-word; /* Ha eléri a szélességet, megtörik */
+  overflow-wrap: break-word; /* Extra biztosítás régi böngészőkre */
+  white-space: normal; /* Biztos, hogy nem egy sorban marad */
+}
+
+/* p, li, input {
+  font-size: 90%;
+} */
+
+/*li*/ input {
+  margin: 0 8px 12px 10px;
+  /*padding-left: 5px;*/
+}
+
+li {
+  margin: 2px 0;
+}
+
+p {  
+  margin: 8px 0;
+}
+
+.tof {
+  margin-top: 20px;
+}
+
+/*.tof p {*/
+  /*font-size: 80%;*/
+/*}*/
+
+ul, ol {
+  padding-left: 28px;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: red !important;
+  text-decoration: underline;
+  background-color: unset;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+th, td {
+  border: 1px solid var(--border-color);
+  padding: 4px 12px;
+  text-align: left;  
+}
+
+th {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-weight: 600;
+  /*font-size: 80%;*/
+}
+
+table td {
+  font-size: 11pt;  
+}
+
+table p {
+  margin: 0;
+}
+
+td code {
+  inline-size: 20px;
+  overflow-wrap: break-word;
+}
+
+code {
+  color: #6495ED !important;          /* szöveg színe (fehér például) */
+  /*background-color: rgba(129, 129, 129, 0.1);*/
+  /*padding: 2px 6px;*/
+  border-radius: 4px;
+  font-family: 'Consolas', monospace;
+}
+
+icon-blockquote {
+  display: block;
+  white-space: pre-line; /* Sor végekre ENTER-t szúr */
+  /*padding: 10px 10px 10px 50px;*/
+  padding: 0px 10px 15px 50px;
+  border-left: 5px solid var(--accent-color);
+  margin: 8px 0 10px 0;
+  /*padding: 1em;*/
+  background-color: var(--note-bg-color);
+  color: var(--text-color);
+  border-radius: 4px;
+  position: relative;
+  /*white-space: pre-wrap;*/
+ /* overflow: auto;*/
+  /*font-size: 80%;*/
+  line-height: 1.4;
+  font-size: 11pt; /* Alapértelmezett méret */
+}
+
+icon-blockquote p {
+  margin: 0;
+  padding: 0;
+  
+}
+
+icon-blockquote.note {
+  background-color: var(--note-bg-color);
+  border-left-color: var(--note-border-color);
+}
+
+icon-blockquote.warning {
+  background-color: var(--warning-bg-color);
+  border-left-color: var(--warning-border-color);
+}
+
+icon-blockquote.example {
+  background-color: var(--example-bg-color);
+  border-left-color: var(--example-border-color);
+}
+
+icon-blockquote.tip {
+  background-color: var(--tip-bg-color);
+  border-left-color: var(--tip-border-color);
+}
+
+icon-blockquote::before {
+  font-family: "Noto Color Emoji", "Segoe UI Emoji", "Apple Color Emoji", sans-serif !important;
+  display: inline-block;
+  font-size: 1.4em;
+}
+
+icon-blockquote.note::before,
+icon-blockquote.warning::before,
+icon-blockquote.example::before,
+icon-blockquote.tip::before {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  /*font-size: 1.2em;*/
+  /*font-family: 'Noto Color Emoji', sans-serif !important;*/
+  font-family: "Noto Color Emoji", "Segoe UI Emoji", sans-serif !important;
+}
+
+icon-blockquote.note::before {
+  content: '\1F4CB'; /* 📋 */
+}
+
+icon-blockquote.warning::before {
+  content: '\26A0'; /* ⚠️ */
+}
+
+icon-blockquote.example::before {
+  content: '\2705'; /* ✅ */
+}
+
+icon-blockquote.tip::before {
+  content: '\1F4A1'; /* 💡 */
+}
+
+.header-info {
+  background-color: var(--header-info-bg-color);
+  border-left: 5px solid var(--header-info-border-color);
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.metadata p {
+  font-size: 11pt;
+}
+
+.header-info p {
+  margin: 0;
+  padding: 0;
+  /*font-size: 13px;*/
+}
+
+.header-info br {
+  content: "";
+  margin: 1em;
+  display: block;
+  /*font-size: 24%;*/
+}
+
+.page-break {
+  page-break-after: always;
+}
+
+.color-emoji {
+  font-family: 'Noto Color Emoji', sans-serif;
+}
+
+/*.pdf-logo-container {*/
+  /*position: fixed;*/  /* Rögzített pozíció, minden oldal headerjében megjelenik */
+/*  text-align: right; /* Jobbra igazítás, position:fixed helyett */
+/*  top: 0px;        /* Távolság felülről */
+/*  right: 0px;      /* Távolság jobbról */
+/*  z-index: 9999;    /* Biztos, hogy a tartalom felett lesz */
+/*}*/
+
+/*.pdf-logo {
+  width: 100px;      /* Logó szélessége */
+/*  height: auto;     /* Méretarány megtartása */
+/*}*/
+
+
+/* .pdf-logo-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: right;
+}
+
+.pdf-logo {
+    width: 60px;
+    height: auto;
+} */
+
+.pdf-logo-container {
+    position: absolute;
+    top: 20px;         /* a lap tetején van */
+    right: 0px;      /* pontosan 20px távolságra a jobb oldaltól */
+    width: auto;      /* Ne használj 100%-ot, mert akkor balra tolódhat */
+}
+
+.pdf-logo {
+    width: 80px;      /* kívánt méret */
+    height: auto;
+}
+
+/* "markdown-pdf.margin": {
+    "top": "20px",      
+    "bottom": "20px",
+    "left": "20px",
+    "right": "20px"
+} */
+
+/* .document-end {
+  font-family: 'Oxanium', sans-serif;
+  font-style: italic;
+  margin-top: 20px;
+  color: var(--text-color);
+} */
+
+.document-end {
+  font-family: 'Roboto Slab', serif;
+  font-size: 10pt; /*!important;*/
+  font-style: normal;
+  text-align: center;
+  margin-top: .5rem;
+  color: var(--text-color);
+}
+
+.tree-container {
+  /*width: 100vw; /* Teljes szélesség */
+  /*height: 100vh; /* Teljes magasság */
+  width: fit-content;
+  white-space: nowrap;
+  overflow: auto; /* Görgethető tartalom */
+  font-family: monospace;
+  white-space: pre;
+  color: #d0d0f5;
+  background: linear-gradient(to right, var(--primary-color), var(--accent-color));  
+  align-items: center;
+  font-size: large;
+  margin: auto;
+  padding: 0 10px;
+}
+
+/* Code block formatting */
+
+/* Általános kódblokkok */
+/*  pre code {
+  background: var(--header-info-border-color);
+  color: #333;
+  padding: 1em;
+  border-radius: 6px;
+  display: block;
+  overflow-x: auto;
+  font-family: Consolas, Monaco, 'Courier New', monospace;  
+  font-size: 7pt;
+}  */
+
+pre code {
+  font-size: 8pt;
+}
+
+/* Általános kódblokk stílus webre */
+/* pre.hljs {
+  background: #272822;  
+  color: #f8f8f2;
+  font-size: 5pt;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+} */
+
+/* Általános kódblokk stílus */
+pre.hljs {
+  display: block;
+  background-color: #eef4fa; /* világoskék háttér */
+  color: #1a1a1a;             /* sötétszürke szöveg – nyomtatóbarát */
+  border-left: 3px solid #007acc; /* kék sáv a bal oldalon */
+  padding: 0.75em 1em;
+  margin: 1em 0;
+  font-size: 10pt;
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+  border-radius: 4px;
+  overflow-x: auto;
+  line-height: 1.5;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* enyhe mélység, de nem sötét */
+}
+
+
+/* JSON kulcsok */
+.hljs-attr {
+  color: #f92672;
+}
+
+/* JSON stringek */
+.hljs-string {
+  color: #336699;
+}
+
+/* JSON számok (ha lennének) */
+.hljs-number {
+  color: #f5871f;
+}
+
+/* > signed lines */
+blockquote {
+  background-color: var(--header-info-bg-color);
+  border-left: 5px solid var(--accent-color);
+  border-radius: 4px;
+  display: block;
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+  padding: 1em;
+  font-size: 10pt;
+  line-height: 1.4;
+  position: relative;
+}
+
+multiline-blockquote {
+  background-color: var(--header-info-bg-color);
+  border-left: 5px solid var(--accent-color);
+  border-radius: 4px;
+  display: block;
+  white-space: pre-line; /* Sor végekre ENTER-t szúr */
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+  padding: 1em;
+  font-size: 10pt;
+  line-height: 1.4;
+  position: relative;
+}
+
+/* Trükk: ha az első karakter sortörés, eltoljuk vizuálisan */
+multiline-blockquote::before {
+  content: '';
+  display: block;
+  height: 0;
+  margin-top: -1em;
+}
+
+blockquote p,
+multiline-blockquote p {
+  margin: 0;
+  padding: 0;
+  font-size: 1em; /* Alapértelmezett méret */
+}

@@ -1,0 +1,5 @@
+# List of hook scripts to run before commit
+# Paths are relative to the repository root
+
+TOOLS/hooks/update-sh-header.sh
+TOOLS/hooks/update-md-timestamp.sh

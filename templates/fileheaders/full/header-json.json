@@ -1,0 +1,39 @@
+{
+  "_metadata": {
+    "_description": "METASYSTEM_SCC™  Legal System - [Script Name] - [Short Description] Script",
+    "_system": "[System Name]",
+    "_module": "[Module Name]",
+    "_timestamp": "2025-07-06 07:23:37",
+    "_user": "ncoldwave",
+    "_version": "2025.0.0.1-Preview",
+    "_author": "Róbert Kovács (ncoldwave)",
+    "_created": "2025-07-06 06:46:00 UTC",
+    "_team": "[if any]",
+    "_project": "METASYSTEM_SCC™  Legal System",
+    "_component": "Deployment Automation",
+    "_license": {
+      "type": "Proprietary",
+      "granted_to": "UniVital.Net",
+      "valid_until": "revoked",
+      "restrictions": [
+        "Unauthorized use, copying, modification, or distribution is strictly prohibited.",
+        "License remains valid until explicitly revoked by the copyright holder."
+      ]
+    },
+    "_contact": {
+      "legal": "legal@univital.net",
+      "author": "robbi.mobile@gmail.com"
+    },
+    "_repository": "https://github.com/ncoldwave/<REPOSITORY-NAME>",
+    "_usage": "./script-name.sh [parameters]",
+    "_target": "[Target environment/servers]",
+    "_dependencies": "[List any required tools/software]",
+    "_notices": {
+      "security": "This script contains proprietary automation procedures. Do not share or modify without explicit authorization.",
+      "legal": "For legal compliance and audit purposes, all executions of this script are logged and monitored."
+    }
+  },
+  "actualConfig": {
+    "key": "value"
+  }
+}
