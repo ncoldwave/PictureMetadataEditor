@@ -24,7 +24,7 @@ hs_err_pid*
 replay_pid*
 
 # Visual Studio
-.vscode
+#.vscode
 
 # Thumbnail cache files
 ._*
@@ -54,3 +54,9 @@ min/
 
 # Compiled PDF Files
 *.pdf
+
+# Big Documents
+*.docx
+
+# Selected files
+TODO.md

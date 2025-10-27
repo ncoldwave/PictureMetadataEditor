@@ -1,11 +1,11 @@
 # Repository Proof of Authorship and Creation  
 
-*(Szerzői jogi és keletkezési bizonyíték a repositoryhoz)*  
+*(Copyright and proof of origin for the repository.)*  
 
 ## 1. Repository Information  
 
 - **Repository name:** PictureMetadata  
-- **URL:** <https://github.com/ncoldwave/PictureMetadataEditor>  
+- **Repository URL:** <https://github.com/ncoldwave/PictureMetadataEditor>  
 - **Owner / Author:** Róbert Kovács  
 - **Creation date:** 2025-10-19 21:53:54 +02:00  
 - **Repository status:** Private (timestamped commits)  

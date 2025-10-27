@@ -1,0 +1,117 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#3A283B",
+        "titleBar.activeBackground": "#513852",
+        "titleBar.activeForeground": "#FBFAFB"
+    },
+    // - LEAVING JAVA WORKSPACE SETTINGS - BEGIN
+    // // ===== TERMINAL BEÁLLÍTÁSOK - PowerShell alapértelmezett, WSL csak Unicode tesztekhez =====
+    // "terminal.integrated.defaultProfile.windows": "PowerShell",
+    // "terminal.integrated.profiles.windows": {
+    //     "PowerShell": {
+    //         "source": "PowerShell",
+    //         "icon": "terminal-powershell"
+    //     },
+    //     "Ubuntu (WSL)": {
+    //         "path": "C:\\Windows\\System32\\wsl.exe",
+    //         "args": ["-d", "Ubuntu"],
+    //         "icon": "terminal-ubuntu"
+    //     },
+    //     "Command Prompt": {
+    //         "path": [
+    //             "${env:windir}\\Sysnative\\cmd.exe",
+    //             "${env:windir}\\System32\\cmd.exe"
+    //         ],
+    //         "args": [],
+    //         "icon": "terminal-cmd"
+    //     }
+    // },
+    // // ===== JAVA PROJEKT BEÁLLÍTÁSOK =====
+    // "java.configuration.updateBuildConfiguration": "automatic",
+    // "java.compile.nullAnalysis.mode": "automatic",
+    // "java.configuration.workspaceCacheLimit": 90,
+    
+    // // Maven working directory beállítása
+    // "maven.terminal.useJavaHome": true,
+    // "maven.terminal.customEnv": [
+    //     {
+    //         "environmentVariable": "MAVEN_OPTS",
+    //         "value": "-Xmx1024m"
+    //     }
+    // ],
+    
+    // // Java projekt forrás mappák a TOOLS/DigitalAssetProtectorWatermarkEngine-ben
+    // "java.project.sourcePaths": [
+    //     "TOOLS/DigitalAssetProtectorWatermarkEngine/src/main/java",
+    //     "TOOLS/DigitalAssetProtectorWatermarkEngine/src/test/java"
+    // ],
+    // "java.project.outputPath": "TOOLS/DigitalAssetProtectorWatermarkEngine/target",
+    // "java.project.referencedLibraries": [
+    //     "TOOLS/DigitalAssetProtectorWatermarkEngine/lib/**/*.jar"
+    // ],
+    
+    // // Workspace folder beállítások Java projekthez
+    // "java.import.gradle.enabled": false,
+    // "java.import.maven.enabled": true,
+    
+    // // Kizárjuk a többi mappát a Java Language Server-ből
+    // "files.exclude": {
+    //     "**/node_modules": true,
+    //     "**/.git": false,
+    //     "**/.DS_Store": true,
+    //     "**/Thumbs.db": true,
+    //     // Java projekttől eltérő mappák kizárása - csak a nagy mappákat rejtjük el - TODO: set back to true for java dev
+    //     "ASSETS/**": true,
+    //     "DOCUMENTATION/**": true,
+    //     "SAMPLE_FILES/**": true,
+    //     "TEMPLATES/**": true
+    //     // TOOLS mappát most megtartjuk láthatónak
+    // },
+    
+    // // Problems nézet szűrése - csak a watermark engine hibáit mutassa
+    // "problems.decorations.enabled": true,
+    // "problems.autoReveal": true,
+    // "java.debug.settings.onBuildFailureProceed": true,
+    
+    // // temporary solve mass vscode file recreation problem - not java related
+    "files.hotExit": "off", 
+    // - LEAVING JAVA WORKSPACE SETTINGS - END
+
+    // Markdown PDF végleges, letisztult PDF-export beállítások:
+    "markdown-pdf.margin.top": "0.5cm",
+    "markdown-pdf.margin.bottom": "0.5cm",
+    "markdown-pdf.margin.left": "1cm",
+    "markdown-pdf.margin.right": "1cm",
+
+    // Fejléc és lábléc teljes eltüntetése
+    "markdown-pdf.headerTemplate": "<span></span>",
+    /*"markdown-pdf.footerTemplate": "<span></span>",*/
+    "markdown-pdf.styles": [
+    ".vscode/markdown-pdf.css"
+    ],
+
+    "markdown-pdf.enableHtml": true,
+
+    /* page numbering */
+    "markdown-pdf.displayHeaderFooter": true,
+    /*"markdown-pdf.headerTemplate": "<span style='font-size:8pt; color:#888;'>Page <span class='pageNumber'></span> of <span class='totalPages'></span></span>",*/
+    "markdown-pdf.footerTemplate": "<div style='font-size:9px; text-align:right; width:100%; padding-right:10px; color:#333;'><span style='font-family:\"Courier New\", monospace;'>Szignó:</span> ____________&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span class='pageNumber'></span> / <span class='totalPages'></span></div>",
+
+    // html warning kikapcsolás és html ellenőrzés md dokumentumban
+    //"markdown.validate.enabled": false;
+
+    // Ez megakadályozza, hogy minden új sor automatikusan <br>-t kapjon.
+    "markdown-pdf.breaks": false,
+    
+    "editor.associatedLanguageIds": {
+      "*.md": "html"
+    },
+    "grammarly.selectors": [
+      {
+        "language": "markdown",
+        "scheme": "file",
+        "pattern": "DOCUMENTATION/SURVEY/slogan-evaluation.md"
+      }
+    ],
+
+}

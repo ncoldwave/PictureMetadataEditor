@@ -1,9 +1,9 @@
 # PictureMetadata™
 
 **PictureMetadata™** is a universal metadata analyzer, converter, and validation tool  
-for professional imaging workflows and AI data pipelines. Different Business plan for testing my new *"Waving Blue Sea"* economical theory.
+for professional imaging workflows and AI data pipelines with different Business plan for testing my new *"Waving Blue Ocean Strategy™"* economical theory.
 
-> "Every pixel has story."
+> "Every pixel has history.™"
 
 ## Features
 
@@ -46,5 +46,30 @@ for professional imaging workflows and AI data pipelines. Different Business pla
 - [COPPA (US Children's Online Privacy Protection Act)](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa)  
 - [FIPS 140-3 Standard](https://csrc.nist.gov/publications/detail/fips/140/3/final)  
 
-**PictureMetadata™** - invention and intellectual property of **Kovács Róbert™**.  
-All rights reserved.
+## Brand Protection
+
+The projects listed above are technologically connected to the development infrastructure but were created as independent brands and intellectual properties. None of these projects belong to each other or any other brand, and any potential limitation, transfer, or discontinuation of the these brands shall not affect the authorship or ownership rights of the listed projects.  
+
+## Licensing & Authorship
+
+**PictureMetadata™** is an original concept and invention of **Kovács Róbert**. - All rights reserved.
+
+All components and documentation are the exclusive intellectual property of **Róbert Kovács**.  
+Applicable license terms:  
+
+- [LICENSE](LICENSE)
+- [github.com/ncoldwave/LICENSES](https://github.com/ncoldwave/LICENSES)  
+- [www.ncoldwave.com/licensing](https://www.ncoldwave.com/licensing)
+
+Unauthorized access or redistribution is prohibited without prior written consent.
+
+## 📧 Contact
+
+**Author / Maintainer:** Róbert Kovács  
+📩 `robbi.mobile@gmail.com`  
+🔐 Legal inquiries: `legal@ncoldwave.com` | `legal@aeternvalens.com`
+
+© 2025 Róbert Kovács - All rights reserved.  
+This project and all associated content - including code, documentation, designs, visual elements, and names - are the exclusive intellectual property of the author.  
+Unauthorized copying, access, modification, distribution, or redistribution is strictly prohibited without the prior written consent of the author.  
+*If you become aware of any data breach, unauthorized access, or redistribution of this repository or its contents, please report it immediately to the email addresses listed above.*  
