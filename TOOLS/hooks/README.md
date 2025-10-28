@@ -108,13 +108,13 @@ git log --diff-filter=A --follow --format="%aI" -- path/to/file.js | head -n 1
 ## 📜 License & Legal Notice
 
 © Róbert Kovács. All rights reserved.  
-This framework is proprietary and licensed exclusively to **UniVital.Net** until revoked.
+This framework is proprietary and licensed exclusively to **AeternValens™** until revoked.
 
 Unauthorized use, copying, or modification is strictly prohibited.  
 All executions are logged and monitored for legal compliance.
 
 For inquiries:  
-📧 <legal@univital.net>  
+📧 <legal@aeternvalens.com>  
 📧 <robbi.mobile@gmail.com>  
 🔗 <https://github.com/ncoldwave/Design-Media>
 

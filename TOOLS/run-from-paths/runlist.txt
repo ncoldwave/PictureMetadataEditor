@@ -22,7 +22,7 @@
 # /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Starvale-Care-Continuum/Logo/mass-metadata-writer-Starvale-Care-Continuum-Logo.sh
 # /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/TeraRA/Logo/mass-metadata-writer-TeraRA-Logo.sh
 # /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Test-Ament/Logo/mass-metadata-writer-Test-Ament-Logo.sh
-# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/UniVital.Net/My-Logo/mass-metadata-writer-UniVital.Net-Logo.sh
+# /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/AeternValens™/My-Logo/mass-metadata-writer-AeternValens™-Logo.sh
 # /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/Valdár-Astralis/Logo/mass-metadata-writer-Valdár-Astralis-Logo.sh
 # /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite-EMS/Logo/mass-metadata-writer-ViviComm-Lite-EMS-Logo.sh
 # /mnt/c/Repositories/Visual/Image/Characters/SURVEY_IMAGES-WRK/ViviComm-Lite-Hospital/Logo/mass-metadata-writer-ViviComm-Lite-Hospital-Logo.sh

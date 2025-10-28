@@ -7,11 +7,11 @@
  *  Copyright (c) Róbert Kovács. All rights reserved.
  *  Proprietary and confidential.
  *
- *  This script is licensed for use exclusively by UniVital.Net until revoked.
+ *  This script is licensed for use exclusively by AeternValens™ until revoked.
  *  Unauthorized use, copying, modification, or distribution is strictly prohibited.
  *  License remains valid until explicitly revoked by the copyright holder.
  *
- *  Contact:        legal@univital.net, robbi.mobile@gmail.com
+ *  Contact:        legal@aeternvalens.com, robbi.mobile@gmail.com
  *  Repository: https://github.com/ncoldwave/Design-Media
  *
  *
@@ -33,7 +33,7 @@
  * @version 2025.0.0.1-Preview
  * @author Róbert Kovács (ncoldwave)
  * @created 2025-07-06 06:46:00 UTC
- * @contact legal@univital.net, robbi.mobile@gmail.com
+ * @contact legal@aeternvalens.com, robbi.mobile@gmail.com
  * @license Proprietary
  * @component [ComponentName]
  */

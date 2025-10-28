@@ -7,11 +7,11 @@ REM
 REM  Copyright (c) Róbert Kovács. All rights reserved.
 REM  Proprietary and confidential.
 REM
-REM  This script is licensed for use exclusively by UniVital.Net until revoked.
+REM  This script is licensed for use exclusively by AeternValens™ until revoked.
 REM  Unauthorized use, copying, modification, or distribution is strictly prohibited.
 REM  License remains valid until explicitly revoked by the copyright holder.
 REM
-REM  Contact:        legal@univital.net, robbi.mobile@gmail.com
+REM  Contact:        legal@aeternvalens.com, robbi.mobile@gmail.com
 REM  Repository: https://github.com/ncoldwave/Design-Media
 REM
 REM

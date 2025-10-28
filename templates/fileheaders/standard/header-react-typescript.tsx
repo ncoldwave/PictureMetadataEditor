@@ -7,7 +7,7 @@
  *  Copyright (c) Róbert Kovács. All rights reserved.
  *  Proprietary and confidential.
  *
- *  This script is licensed for use exclusively by UniVital.Net until revoked.
+ *  This script is licensed for use exclusively by AeternValens™ until revoked.
  *  Unauthorized use, copying, modification, or distribution is strictly prohibited.
  *  License remains valid until explicitly revoked by the copyright holder.
  *
