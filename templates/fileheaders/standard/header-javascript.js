@@ -1,7 +1,7 @@
 /**
  * [Script Name] - [Short Description] Script
  *
- * Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-07-06 08:02:37
+ * Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-07-06 07:23:37
  * Current User's Login: ncoldwave
  *
  *  Copyright (c) Róbert Kovács. All rights reserved.
@@ -11,7 +11,7 @@
  *  Unauthorized use, copying, modification, or distribution is strictly prohibited.
  *  License remains valid until explicitly revoked by the copyright holder.
  *
- *  Repository: https://github.com/ncoldwave/<REPOSITORY-NAME>
+ *  Repository: https://github.com/ncoldwave/Design-Media
  *
  *
  * Usage: ./script-name.sh [parameters]

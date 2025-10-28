@@ -1,7 +1,7 @@
 @echo off
 REM [Script Name] - [Short Description] Script
 REM
-REM Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-07-06 08:02:37
+REM Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-07-06 07:23:37
 REM Current User's Login: ncoldwave
 REM
 REM  Copyright (c) Róbert Kovács. All rights reserved.
@@ -12,7 +12,7 @@ REM  Unauthorized use, copying, modification, or distribution is strictly prohib
 REM  License remains valid until explicitly revoked by the copyright holder.
 REM
 REM  Contact:        legal@univital.net, robbi.mobile@gmail.com
-REM  Repository: https://github.com/ncoldwave/<REPOSITORY-NAME>
+REM  Repository: https://github.com/ncoldwave/Design-Media
 REM
 REM
 REM Version: 2025.0.0.1-Preview

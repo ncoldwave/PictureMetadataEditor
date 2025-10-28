@@ -3,17 +3,17 @@
  * [Script Name] - [Short Description] Script
  * [System Name] - [Module Name]
  *
- * Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-07-06 08:02:37
+ * Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-07-06 07:23:37
  * Current User's Login: ncoldwave
  *
  *  Copyright (c) Róbert Kovács. All rights reserved.
  *  Proprietary and confidential.
  *
- *  This script is licensed for use exclusively by UniVital.Net until revoked.
+ *  This script is licensed for use exclusively by AeternValens™ until revoked.
  *  Unauthorized use, copying, modification, or distribution is strictly prohibited.
  *  License remains valid until explicitly revoked by the copyright holder.
  *
- *  Repository: https://github.com/ncoldwave/<REPOSITORY-NAME>
+ *  Repository: https://github.com/ncoldwave/Design-Media
  *
  *
  * Project: [eg. METASYSTEM_SCC™  Legal System]
@@ -33,7 +33,7 @@
  * @version 2025.0.0.1-Preview
  * @author Róbert Kovács (ncoldwave) - Team: [if any]
  * @created 2025-07-06 06:46:00 UTC
- * @contact legal@univital.net, robbi.mobile@gmail.com
+ * @contact legal@aeternvalens.com, robbi.mobile@gmail.com
  * @package METASYSTEM_SCC™ Legal
  * @license Proprietary
  * @component [ComponentName]

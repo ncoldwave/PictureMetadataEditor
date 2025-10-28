@@ -2,18 +2,18 @@
 REM [Script Name] - [Short Description] Script
 REM [System Name] - [Module Name]
 REM
-REM Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-07-06 08:02:37
+REM Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-07-06 07:23:37
 REM Current User's Login: ncoldwave
 REM
 REM  Copyright (c) Róbert Kovács. All rights reserved.
 REM  Proprietary and confidential.
 REM
-REM  This script is licensed for use exclusively by UniVital.Net until revoked.
+REM  This script is licensed for use exclusively by AeternValens™ until revoked.
 REM  Unauthorized use, copying, modification, or distribution is strictly prohibited.
 REM  License remains valid until explicitly revoked by the copyright holder.
 REM
-REM  Contact:        legal@univital.net, robbi.mobile@gmail.com
-REM  Repository: https://github.com/ncoldwave/<REPOSITORY-NAME>
+REM  Contact:        legal@aeternvalens.com, robbi.mobile@gmail.com
+REM  Repository: https://github.com/ncoldwave/Design-Media
 REM
 REM
 REM Project: [eg. METASYSTEM_SCC™  Legal System]
