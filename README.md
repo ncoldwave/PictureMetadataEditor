@@ -46,13 +46,42 @@ for professional imaging workflows and AI data pipelines with different Business
 - [COPPA (US Children's Online Privacy Protection Act)](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa)  
 - [FIPS 140-3 Standard](https://csrc.nist.gov/publications/detail/fips/140/3/final)  
 
+## Origin Reference
+
+The initial project documents, concepts and concept sketches, requirements and source codes, source code sketches and all project-related plans were created in the ImageMetaData™ (evidence chain date: 2025-10-08) NexorAA-VisRae™ repository (evidence chain date: 2025-09-11) and the Design-Media repository (evidence chain date: 2025-06-11).
+
+## Repository Metadata
+
+Detailed metadata, SHA-256 hashes, HIPO IP Claim IDs, and related evidence  
+are stored in the `REPOSITORY_PROOF_OF_AUTHORSHIP.md` document.
+
+This repository contains only the public summary of the project.  
+The complete proof and metadata chain is archived separately.
+
+## Disclaimer and Rights Notice
+
+This project is under active development and may change at any time.  
+The author reserves the full right to modify, expand, or remove any part of the project, including its features, structure, or content, without prior notice.  
+
+All intellectual property rights, including future updates, derivatives, and improvements, remain the exclusive property of the author until otherwise stated in official registration or licensing documentation.
+
 ## Brand Protection
 
 The projects listed above are technologically connected to the development infrastructure but were created as independent brands and intellectual properties. None of these projects belong to each other or any other brand, and any potential limitation, transfer, or discontinuation of the these brands shall not affect the authorship or ownership rights of the listed projects.  
 
+## Academic and Institutional Statement
+
+This repository is part of the author's MSc thesis submitted to the Óbuda University,  
+titled "Integrating AI chatbot into webapplication".  
+The repository remains confidential until the official publication approval.
+
+## Contributing
+
+Although this GitHub repository is currently closed, we welcome future contributions from legal technologists, AI researchers, and open-source developers. Contribution guidelines will be available in the CONTRIBUTING.md file once the GitHub repository is officially opened.
+
 ## Licensing & Authorship
 
-**PictureMetadata™** is an original concept and invention of **Kovács Róbert**. - All rights reserved.
+**PictureMetadata™** is an original concept and invention of **Róbert Kovács**. - All rights reserved.
 
 All components and documentation are the exclusive intellectual property of **Róbert Kovács**.  
 Applicable license terms:  
@@ -61,11 +90,20 @@ Applicable license terms:
 - [github.com/ncoldwave/LICENSES](https://github.com/ncoldwave/LICENSES)  
 - [www.ncoldwave.com/licensing](https://www.ncoldwave.com/licensing)
 
-Unauthorized access or redistribution is prohibited without prior written consent.
+All contents of this repository - including source code, documentation, and data -  
+are the exclusive intellectual property of **Róbert Kovács**.  
+
+Partial or full reproduction, redistribution, or use for AI training or commercial purposes  
+is strictly prohibited without prior written consent of the author.  
+
+This repository constitutes a protected academic intellectual work  
+under the Óbuda University Intellectual Property Policy and remains confidential.
+
+Unauthorized access or redistribution is prohibited without prior written consent.  
 
 ## 📧 Contact
 
-**Author / Maintainer:** Róbert Kovács  
+**Author / Owner:** Róbert Kovács  
 📩 `robbi.mobile@gmail.com`  
 🔐 Legal inquiries: `legal@ncoldwave.com` | `legal@aeternvalens.com`
 

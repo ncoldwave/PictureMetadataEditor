@@ -1,14 +1,18 @@
 # Repository Proof of Authorship and Creation
 
+*(Copyright and proof of origin for the repository.)*  
+
 ## 1. Repository Information  
 
-- **Project name:** TODO™
-- **Repository name:** TODO  
-- **Repository URL:** TODO  
-- **Project domain:** TODO *Registered and reserved for the project use; site under development*
+- **Project name:** PictureMetadataEditor™
+- **Repository name:** PictureMetadata  
+- **Code name:** AV_POME
+- **Repository URL:** <https://github.com/ncoldwave/PictureMetadataEditor>  
+- **Project domain:** [picturemetadataeditor.com](https://picturemetadataeditor.com) *Registered and reserved for the project use; site under development*
 - **Owner / Author:** Róbert Kovács  
-- **Creation date:** TODO  
+- **Creation date:** 2025-10-19 21:53:54 +02:00  
 - **Repository status:** Private (timestamped commits)  
+- **Proof Archive:** TODO
 - **Last proofing and submission:** <!-- TODO: 2025-10-20 -->
 
 ## Proof of Authorship  
@@ -21,11 +25,10 @@ No source code or confidential content is publicly disclosed; however, logs and 
 ## Proofed Repository Purpose
 
 <!-- TODO -->
-Serves as the overarching eternal core unifying digital health, legal compliance, and AI infrastructure under a secure intellectual property and licensing framework. Company name.
 
 ## Origin Reference (if needed)
 
-First documents and concept drafts originated in NexorAA-VisRae™ repository (proof chain 2025-02-18).
+First documents and concept drafts originated in NexorAA-VisRae repository (proof chain 2025-02-18).
 
 ### Verification Evidence
 
@@ -47,14 +50,14 @@ Proof package (ZIP + SHA256SUMS + timestamp) stored in:
 
 - **Proof Repository:** ProofArchive (private)
 - **Proof Repository URL:** <https://github.com/ncoldwave/ProofArchive>
-- **Audit ID:** <!-- TODO-proof-2025-10-20.zip -->
+- **Audit ID:** <!-- ProofArchive-Master-[DATETIME].zip -->
 
 ### Sample content of the ProofArchive-Master content - Confidential appendix
 
 ```tree
 ProofArchive-Master-[DATETIME].zip                    --- Master archive containing all proof materials
 ├── Repositories-[DATE]/                                  --- Collection of project repositories
-│   ├── [RepositoryName]-[DATETIME]-[COMMIT_ID].zip       --- Compressed archive of a specific project version
+│   ├── [RepositoryName]-[DATETIME]-[COMMIT_ID].zip       --- Compressed archive of a specific repository
 │   │   ├── [RepositoryName]-[DATETIME]-[CommitID].zip    --- Source code and documentation of the project
 │   │   │   ├── REPOSITORY_PROOF_OF_AUTHORSHIP.md         --- Authorship declaration and proof for the repository
 │   │   │   ├── README.md                                 --- Project overview with main requirements
@@ -110,35 +113,90 @@ Unauthorized distribution, reproduction, or AI-training use is prohibited.
 
 ## Verification Reference
 
-Validation can be performed by matching the SHA-256 checksum in SHA256SUMS.txt against the archived repository snapshot (ZIP).
+Validation can be performed by matching the SHA-256 checksum in `SHA256SUMS.txt` against the archived repository snapshot (`.zip`), verifying the GPG signature, and validating the RFC 3161 timestamp.
 
-To verify a project level proof:
+### 1. Recreate or use the provided ZIP archive
 
-```bash - TODO for verification
-# Use the provided project repository zip file or recreate the proof ZIP from Git if you have access:
-git archive --format=zip --output <Project>-<datetime>-<commitID>.zip <commitID>
+If you have access to the Git repository, you can recreate the ZIP snapshot using the exact commit ID:
 
-# Compute SHA-256
-shasum -a 256 <Project>-<datetime>-<commitID>.zip
+```bash
+git archive --format=zip --output [RepositoryName]-[DATETIME]-[COMMIT_ID].zip
+```
 
-# Compare with ProofArchive/SHA256SUMS.txt
-...
+Alternatively, use the provided ZIP file in the `PROOFS` directory.
 
-# GPG signature verification
-...
+### 2. Compute SHA-256 checksum
 
-# Verify RFC 3161 TSA timestamp
-openssl ts -verify -in proof.tsr -queryfile proof.tsq -data <Project>-<datetime>-<commitID>.zip -CAfile cacert.pem
+Run the following to calculate the checksum of the ZIP file:
 
-# Or use the provided shell script for all steps for all files
-# install script
+```bash
+shasum -a 256 [RepositoryName]-[DATETIME]-[COMMIT_ID].zip
+```
+
+Compare the output with the corresponding entry in:
+
+```text
+SHA256SUMS.txt
+```
+
+### 3. Verify GPG signature of the JSON proof
+
+Use the provided public key to verify the signature of `repository-proof.json`:
+
+```bash
+gpg --import public-key.asc
+
+gpg --verify repository-proof.json.sig repository-proof.json
+```
+
+Expected result:  
+Good signature from trusted key  
+If signature is invalid or key is missing, verification fails
+
+### 4. Verify RFC 3161 timestamp
+
+Use OpenSSL to verify the timestamp response (`.tsr`) against the query (`.tsq`) and the original data file:
+
+```bash
+openssl ts -verify \
+  -in [RepositoryName]-[DATETIME]-[COMMIT_ID].zip.tsr \
+  -queryfile [RepositoryName]-[DATETIME]-[COMMIT_ID].zip.tsq \
+  -data [RepositoryName]-[DATETIME]-[COMMIT_ID].zip \
+  -CAfile cacert.pem
+```
+
+Expected result:  
+Timestamp verification successful  
+If the `.tsr` or `.tsq` files are mismatched, verification fails
+
+### 5. Optional: Verify additional files
+
+Repeat steps 2–4 for other files such as:
+
+- `repo_log.txt`
+- `repo_log_full.txt`
+- `SHA256SUMS.txt`
+
+Each has its own `.tsq` and `.tsr` pair for timestamp verification.
+
+### 6. Use the provided verification script
+
+If available, you can automate all steps using the `verify-repository.sh` script:
+
+```bash
 chmod +x verify-repository.sh
 dos2unix verify-repository.sh
 dos2unix .config
 
-# run the script
 ./verify-repository.sh
 ```
+
+This script should:
+
+- Validate SHA-256 checksums
+- Verify GPG signatures
+- Check RFC 3161 timestamps
+- Log results for audit purposes
 
 ## Legal Statement  
 
@@ -151,8 +209,8 @@ dos2unix .config
 
 **Author / Rights Holder:**  
 Róbert Kovács  
-📧 <robbi.mobile@gmail.com> | 📧 <legal@ncoldwave.com> | 📧 <legal@aeternvalens.com>  
-📍 Velence, Hungary  
+<robbi.mobile@gmail.com> | <legal@ncoldwave.com> | <legal@aeternvalens.com>  
+Velence, Hungary  
 
 *This file serves as an official proof-of-authorship record for intellectual property verification purposes.  
 No source code or confidential content is disclosed within this document.*
